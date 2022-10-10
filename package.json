@@ -1,0 +1,24 @@
+{
+  "name": "node.js-and-express-portfiolo",
+  "version": "1.0.0",
+  "description": "static portfolio site created with node.js and express.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bradando4130/Node.js-and-Express-portfiolo.git"
+  },
+  "author": "Brad Anderson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bradando4130/Node.js-and-Express-portfiolo/issues"
+  },
+  "homepage": "https://github.com/bradando4130/Node.js-and-Express-portfiolo#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20",
+    "pug": "^3.0.2"
+  }
+}
