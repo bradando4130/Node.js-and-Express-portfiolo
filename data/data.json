@@ -1,0 +1,64 @@
+{
+  "projects": [
+    {
+      "id": 0,
+      "project_name": "Web App Dashboard",
+      "description": "This web application uses multiple data visualisations to display detailed user information. Graphs displayed through use of Chart.js plugin, which can be dynamically changed through different datasets. Designed to be scalable through different display sizes through use of CSS grid.",
+      "technologies": ["JavsScript", "SASS", "CSS", "HTML"],
+      "live_link": "https://bradando4130.github.io/techdegree-project-7/",
+      "github_link": "https://github.com/bradando4130/techdegree-project-7/",
+      "image_urls": [
+        "static/images/webapp.png",
+        "static/images/webapp-mobile.png"
+      ]
+    },
+    {
+      "id": 1,
+      "project_name": "Phrase Hunter Game Show App",
+      "description": "An app designed around guessing a hidden phrase on the screen, hangman style. Player selects letter tiles on screen to compare with letters in the phrase. Player wins if guesses all letters correctly, or looses with five invalid selections. Created using Object Oriented JavaScript programming principles to hold game state",
+      "technologies": ["JavaScript", "CSS", "HTML"],
+      "live_link": "https://bradando4130.github.io/OOP-Game-Show-App/",
+      "github_link": "https://github.com/bradando4130/OOP-Game-Show-App",
+      "image_urls": [
+        "static/images/phrasehunter.png",
+        "static/images/phrasehunter-win.png"
+      ]
+    },
+    {
+      "id": 2,
+      "project_name": "Awesome Startup Employee API App",
+      "description": "App for a fictional startup compant to view employee contact details. Built with JavaScript, this app will fetch random employee data from Random User Generator API and display to page. Employees can be filtered by name via a search bar input. Employees can also be clicked on for a modal popup to display extra information, from this modal they can be toggled between using click buttons and keyboard arrow input.",
+      "technologies": ["JavaScript", "CSS", "HTML"],
+      "live_link": "https://bradando4130.github.io/awesome-startup-api-app/",
+      "github_link": "https://github.com/bradando4130/awesome-startup-api-app",
+      "image_urls": [
+        "static/images/apiapp.png",
+        "static/images/apiappsearch.png"
+      ]
+    },
+    {
+      "id": 3,
+      "project_name": "Personal Portfolio",
+      "description": "My first portfolio I put together. I am still quite proud of all I have achieved in this version. Portfolio design and styling done from scratch. Simple single page to display projects completed as part of the Treehouse Front End Web Development Techdegree. Modal pop-up sections for more detailed information on each project, custom form validation for 'contact me' section. Some projects shown are simpler versions of current projects.",
+      "technologies": ["JavsScript", "SASS", "CSS", "HTML"],
+      "live_link": "https://bradando4130.github.io/",
+      "github_link": "https://github.com/bradando4130/bradando4130.github.io",
+      "image_urls": [
+        "static/images/portfoliov1-2.png",
+        "static/images/portfoliov1.png"
+      ]
+    },
+    {
+      "id": 4,
+      "project_name": "Interactive Form Validation",
+      "description": "Custom JavaScript form validation for a registration form for a mock tech event. Fields cross checked against Regular Expression values to validate. Dynamic disabling of events selected with conflicting times. Expansion of sub sections based on initial selections.",
+      "technologies": ["JavaScript", "CSS", "HTML"],
+      "live_link": "https://bradando4130.github.io/Interactive-Form-Validation/",
+      "github_link": "https://github.com/bradando4130/Interactive-Form-Validation",
+      "image_urls": [
+        "static/images/formvalidation.png",
+        "static/images/formvalidation2.png"
+      ]
+    }
+  ]
+}

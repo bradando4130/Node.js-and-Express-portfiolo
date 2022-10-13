@@ -2,7 +2,7 @@
   "name": "node.js-and-express-portfiolo",
   "version": "1.0.0",
   "description": "static portfolio site created with node.js and express.",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

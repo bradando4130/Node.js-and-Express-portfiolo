@@ -4,15 +4,20 @@ block content
 
   article.portfolio-intro
 
-    //- Replace with your own heading like 'My Portfolio', or 'Hey, Potential Employers', or 'Let's make the web great together!' 
-    h1 Heading
+    h1 Brad Anderson
 
     //- Replace with a description for your portfolio, what this project is, it's purpose, what it's supposed to accomplish, etc. 
-    p Portfolio description
+    p This portfolio has been created as part of the Treehouse Full Stack JavaScript Techdegree. This portfolio aims to demonstrate a collection of the projects I have comepleted during this course, along with my previous Front End Web Development Techdegree. Showcasing my skills in web development.
 
 
   article.portfolio-project-thumbs
     .projects-box.box.grid
+    
+    each project in projects
+      .cell 
+        a(href=`/projects/${project.id}`)
+          img.thumbnail(src=`${project.image_urls[0]}` alt='Thumbnail of project')
+          h5 #{project.project_name}
 
       //- Use the Pug `each` iterator to loop over the projects in your data file  
       
