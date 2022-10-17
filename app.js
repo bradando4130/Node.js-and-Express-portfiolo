@@ -22,8 +22,7 @@ app.use(mainRoutes);
  */
 app.use((req, res, next) => {
   const err = new Error("Page not found");
-  err.status = 500;
-  console.log(err);
+  err.status = 404;
   next(err);
 });
 
@@ -32,7 +31,11 @@ app.use((err, req, res, next) => {
   res.status(err.status || 500);
   err.message =
     err.message || "Whoops, loops like there was a problem with the server";
-  res.render("error", { err });
+  if (err.status === 404) {
+    res.render("page-not-found", { err });
+  } else {
+    res.render("error", { err });
+  }
 });
 
 /**

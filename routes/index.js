@@ -17,13 +17,17 @@ router.get("/about", (req, res) => {
   res.render("about");
 });
 
-router.get("/projects/:id", (req, res) => {
+router.get("/projects/:id", (req, res, next) => {
   const { id } = req.params;
   const project = projects[id];
 
   if (project) {
-    console.log(project);
     res.render("project", { project });
+  } else {
+    const err = new Error();
+    err.message = 'Whoops, project not found';
+    err.status = 404;
+    next(err);
   }
 });
 

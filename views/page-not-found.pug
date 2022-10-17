@@ -1,6 +1,20 @@
 extends layout.pug
 
 block content
-    h1= `${err.message} - Status: ${error.status}`
-    p page-not-found.pug - remove me when done
-    a(href='/') Go Home
+    nav.nav
+        a(href='/')
+            span &larr;
+            |  Back
+
+    article.portfolio-projects
+    .inner-wrapper.flex-row-wrap.two-col
+      .project-info-box.box
+      
+        h1= `${err.message} - Status: ${error.status}`
+        p We couldn't find the page you were looking for. Please return to the home page.
+        img(src='/static/images/error-laptop.png')
+
+    nav.nav
+        a(href='/')
+            span &larr;
+            |  Back
